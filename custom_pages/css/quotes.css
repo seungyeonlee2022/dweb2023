@@ -5,16 +5,16 @@
   #quote {
     position: absolute;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     bottom: 0px;
-    width: 1080px;
-    height: 120px;
+    width: 980px;
+    height: 100px;
     background: rgba(255, 255, 255, 0.05);
     overflow: hidden;
     z-index: 10;
     backdrop-filter: blur(15px);
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: 2px solid rgba(255, 255, 255, 0.2); /*여기 테두리선 픽셀조정*/
+    border-left: 2px solid rgba(255, 255, 255, 0.2);
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
     display: flex;
     text-align: center;
@@ -27,7 +27,7 @@
     position: absolute;
     text-align: left;
     margin: 30px;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   
   #quote span:last-child {
@@ -36,6 +36,6 @@
     bottom: 10px;
     color: yellow;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
   }
   
