@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/clock.css" />
+    <link rel="stylesheet" href="css/weather.css" />
+    <link rel="stylesheet" href="css/todo.css" />
+    <link rel="stylesheet" href="css/quotes.css" />
+    <link rel="stylesheet" href="css/greeting.css" />
+    <title>Today's Note to Self</title>
+  </head>
+  <body id="bgimg">
+    <h1 style="color: white">Today's Note to Self</h1>
+    <div class="clock">
+      <div class="content">
+        <!--Days-->
+        <p class="days">
+          <span id="sun">일</span>&nbsp;<span id="mon">월</span>&nbsp;<span
+            id="tus"
+            >화</span
+          >&nbsp;<span id="wed">수</span>&nbsp;<span id="thu">목</span
+          >&nbsp;<span id="fri">금</span>&nbsp;<span id="sat">토</span>
+        </p>
+        <br />
+        <!--Times-->
+        <p class="times">
+          <span id="hours"></span>:<span id="min"></span>:<span id="sec"></span
+          >&nbsp;&nbsp;<span id="noon"></span>
+        </p>
+        <!--Today-->
+        <p class="today">
+          <span id="cal">
+            <img src="img/calendar.png" alt="calendar" />
+          </span>
+          <span id="year"></span>
+          <span id="month"></span>
+          <span id="day"></span>
+        </p>
+      </div>
+    </div>
+    <!--End Clock-->
+    <div class="weather">
+      <img id="w-icon" src="" alt="" />
+      <p id="temper"></p>
+      <p id="city"></p>
+    </div>
+    <!--End Weather-->
+    <form class="hidden" id="login-form">
+      <input
+        required
+        maxlength="15"
+        type="text"
+        placeholder="username"
+        autofocus
+      />
+      <input type="submit" value="Log In" />
+    </form>
+    <h1 class="hidden" id="greeting" style="color: white"></h1>
+    <!--End Login-->
+    <div class="todo">
+      <h1>To-Do List</h1>
+      <form id="todo-form">
+        <input
+          class="form-text"
+          type="text"
+          placeholder="Add New Todo"
+          autofocus
+          required
+        />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+    <!--End Todo List-->
+    <div class="quote">
+      <div id="quote">
+        <span></span><br />
+        <span></span>
+      </div>
+    </div>
+    <!--End Quote-->
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
