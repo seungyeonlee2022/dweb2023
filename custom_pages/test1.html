@@ -16,6 +16,17 @@
   <body id="bgimg">
     <header class="header">
     <h1 style="color: white">Today is Also JoyFull Day</h1>
+        <form class="hidden" id="login-form">
+        <input
+          required
+          maxlength="15"
+          type="text"
+          placeholder="username"
+          autofocus
+        />
+        <input type="submit" value="Log In" />
+      </form>
+      <h1 class="hidden" id="greeting" style="color: white"></h1>
     <div class="clock">
       <div class="content">
         <p class="days">
@@ -49,6 +60,7 @@
           <ul class="menu_list">
             <div class="menu_home><button class="menu_home_btn">Home</div>
             <div class="menu_current><button class="menu_current_btm">Current</div>
+            <div class="menu_current><button class="menu_grit_btm">Grit</div>
       </section>
       <!--Start Map-->
       <section class="current">
@@ -66,40 +78,30 @@
         </aside>
       </section>
       <!--End Map, Whether-->
-      
-      <form class="hidden" id="login-form">
-        <input
-          required
-          maxlength="15"
-          type="text"
-          placeholder="username"
-          autofocus
-        />
-        <input type="submit" value="Log In" />
-      </form>
-      <h1 class="hidden" id="greeting" style="color: white"></h1>
-      <!--End Login-->
-      <div class="todo">
-        <h1>To-Do List</h1>
-        <form id="todo-form">
-          <input
-            class="form-text"
-            type="text"
-            placeholder="Add New Todo"
-            autofocus
-            required
-          />
-        </form>
-        <ul id="todo-list"></ul>
-      </div>
-      <!--End Todo List-->
+    
+      <section class="Grit">
+        <div class="todo">
+          <h1>To-Do List</h1>
+          <form id="todo-form">
+            <input
+              class="form-text"
+              type="text"
+              placeholder="Add New Todo"
+              autofocus
+              required
+            />
+          </form>
+          <ul id="todo-list"></ul>
+          </div>
       <div class="quote">
         <div id="quote">
           <span></span><br />
           <span></span>
         </div>
       </div>
+      </section>
       <!--End Quote-->
+    </main>
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
