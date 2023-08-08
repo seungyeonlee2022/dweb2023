@@ -1,3 +1,15 @@
+:root{
+    /*color*/
+    --sky-blue-color:#A5F7FF;
+    --white-color:#FFFFFF;
+    --black-color:#060400;
+    --purple-color:#5b4399;
+
+    /*size*/
+    --title-size:7.5em;
+    --menu-header-text:1.8em;
+}
+
 .hidden {
     display: none;
   }
@@ -9,4 +21,19 @@
     background-size: cover;
     background-position: center;
   }
-  
+  .title {
+    position: absolute;
+    top: 6%;
+    align-self: center;
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-size: var(--title-size);
+    margin: 0;
+    font-weight: bold;
+    font-family: "Yasashii-bold";
+}
+.menu__header__text {
+    color: var(--white-color);
+    font-size: var(--menu-header-text);
+    transition: all 0.3s ease;
+}
