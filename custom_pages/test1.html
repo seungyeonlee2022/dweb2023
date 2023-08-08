@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    /*스타일 설정 불러오기*/
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,7 +15,6 @@
     <title>Hello,Mr.MyToday</title>
   </head>
   <body id="bgimg">
-    /*헤더 : 맨  첫 화면*/
     <header class="header">
     <h1 style="color: white">Unspecified Days</h1>
         <form class="hidden" id="login-form">
@@ -31,7 +29,6 @@
       </form>
       <h1 class="hidden" id="greeting" style="color: white"></h1>
 
-    /*달력*/
     <div class="clock">
       <div class="content">
         <p class="days">
@@ -58,9 +55,7 @@
     </div>
     </header>
 
-    /*메인 메뉴*/
     <main class="main">
-      /*메뉴 버튼*/
       <section class="menu">
         <header class="menu__header">
           <button class="menu__header__btn " data-key="header-icon" data-value="scroll"><i class="fas fa-bars" data-key="header-icon" data-value="scroll" ></i></button>
@@ -75,7 +70,6 @@
           </ul>
         </div>
       </section>
-      /*할 일 목록*/
       <section class="todo">
         <header class="todo__header">
             <button class="todo__header__btn pending-btn"><i class="fas fa-list-ul"></i></button>
@@ -97,8 +91,6 @@
             </div>
         </div>
       </section>
-
-      /*현재 날씨와 구글 지도상 위치*/
       <section class="current">
         <div class="map">
         <article>
@@ -113,8 +105,6 @@
           </div>
         </aside>
       </section>
-
-      /*grit TED 동영상 삽입-옆이 명언*/
       <section class="Grit">
         <header class="Grit_header">
           <button class="Grit__header__btn"></button>
@@ -132,8 +122,6 @@
           </div>
         </aside>
       </section>
-      
-        
     </main>
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
