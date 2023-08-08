@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    /*스타일 설정 불러오기*/
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/content.css" />
+    <title>Hello! MyToday</title>
+  </head>
+  <body id="bgimg">
+    <header class="header"></header>
+
+    /*메인 메뉴*/
+    <main class="main">
+      /*메뉴 버튼*/
+      <section class="menu">
+        <header class="menu__header">
+          <button class="menu__header__btn " data-key="header-icon" data-value="scroll"><i class="fas fa-bars" data-key="header-icon" data-value="scroll" ></i></button>
+                <button class="menu__header__text " data-key="header-text" data-value="scroll">Menu</button>
+        </header>
+        <div class="menu__content>
+          <div class="menu__vertical"></div>
+          <ul class="menu__list">
+            <div class="menu__title menu-home><button class="menu_title_btn">Home</div>
+            <div class="menu__title menu-current><button class="menu__title__btm">Current</div>
+            <div class="menu__title menu-grit><button class="menu__title__btm">Grit</div>
+          </ul>
+        </div>
+      </section>
+
+      /*현재 날씨와 구글 지도상 위치*/
+      <section class="current">
+        <div class="map">
+        <article>
+          <p>Where Am I?</p>
+          <div id="map"><br>&nbsp;지도가 표시될 영역</div>
+        </article>
+        
+        <aside>
+          <div class="weather">
+            <img id="w-icon" src="" alt="weather" />
+            <p id="temper"></p>
+            <p id="city"></p>
+          </div>
+        </aside>
+
+      </section>
+
+      /*grit TED 동영상 삽입-옆이 명언*/
+      <section class="Grit">
+        <header class="Grit_header">
+          <button class="Grit__header__btn"></button>
+        </header>
+        <article>
+          <p>All I need is an immersion.</p>
+          <div class="gritvideo">
+            <video autoplay loop muted >
+                <source src="video/windgrass.mp4" type="video.mp4">
+            </video>
+
+          </div>
+        </article>
+        <aside>
+          <div class="quote">
+            <div id="quote">
+              <span></span><br/>
+              <span></span>
+            </div>
+          </div>
+        </aside>
+      </section>
+      
+        
+    </main>
+    <script src="js/quotes.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/menu.js"></script>
+  </body>
+</html>
