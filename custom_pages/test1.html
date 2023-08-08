@@ -18,7 +18,6 @@
     <h1 style="color: white">Today is Also JoyFull Day</h1>
     <div class="clock">
       <div class="content">
-        <!--Days-->
         <p class="days">
           <span id="sun">Sun</span>&nbsp;<span id="mon">Mon</span>&nbsp;<span
             id="tus"
@@ -27,12 +26,10 @@
           >&nbsp;<span id="fri">Fri</span>&nbsp;<span id="sat">Sat</span>
         </p>
         <br />
-        <!--Times-->
         <p class="times">
           <span id="hours"></span>:<span id="min"></span>:<span id="sec"></span
           >&nbsp;&nbsp;<span id="noon"></span>
         </p>
-        <!--Today-->
         <p class="today">
           <span id="cal">
             <img src="img/calendar.png" alt="calendar" />
@@ -43,81 +40,66 @@
         </p>
       </div>
     </div>
-    <!--End Clock-->
     </header>
-    <div class="weather">
-      <img id="w-icon" src="" alt="weather" />
-      <p id="temper"></p>
-      <p id="city"></p>
-    </div>
-    <!--End Weather-->
-    <!--Start Map-->
-    <section id="map">
-      <article>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi dolorem quisomnis nam quas sint assumenda id adipisci veritatis totam.</p>
-        <div id="map"><br>&nbsp;지도가 표시될 영역</div>
-      </article>
-      <aside>
-        <form action="">
-          <fieldset>
-            <legend>Send us Email</legend>
-            <div class="form-group">
-              <label for="name">Name</label>	
-              <input type="text" id="name" name="name">
-            </div>
-            <div class="form-group">
-              <label for="phone">Phone</label>
-              <input type="text" id="phone" name="phone">
-            </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email">
-            </div>
-            <div class="form-group">
-              <label for="msg">Message</label>
-              <textarea name="msg" id="msg" cols="30" rows="8"></textarea>
-            </div>
-            <div class="form-group">
-              <button>SEND</button>
-            </div>
-          </fieldset>
-        </form>
-      </aside>
-    </section>
-    <!--End Map-->
-    <form class="hidden" id="login-form">
-      <input
-        required
-        maxlength="15"
-        type="text"
-        placeholder="username"
-        autofocus
-      />
-      <input type="submit" value="Log In" />
-    </form>
-    <h1 class="hidden" id="greeting" style="color: white"></h1>
-    <!--End Login-->
-    <div class="todo">
-      <h1>To-Do List</h1>
-      <form id="todo-form">
+    
+    <main class="main">
+      <section class="menu">
+        <div class="menu_content></div>
+          <div class="menu_vertical"></div>
+          <ul class="menu_list">
+            <div class="menu_home><button class="menu_home_btn">Home</div>
+            <div class="menu_current><button class="menu_current_btm">Current</div>
+      </section>
+      <!--Start Map-->
+      <section class="current">
+        <div class="map">
+        <article>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi dolorem quisomnis nam quas sint assumenda id adipisci veritatis totam.</p>
+          <div id="map"><br>&nbsp;지도가 표시될 영역</div>
+        </article>
+        <aside>
+          <div class="weather">
+            <img id="w-icon" src="" alt="weather" />
+            <p id="temper"></p>
+            <p id="city"></p>
+          </div>
+        </aside>
+      </section>
+      <!--End Map, Whether-->
+      
+      <form class="hidden" id="login-form">
         <input
-          class="form-text"
-          type="text"
-          placeholder="Add New Todo"
-          autofocus
           required
+          maxlength="15"
+          type="text"
+          placeholder="username"
+          autofocus
         />
+        <input type="submit" value="Log In" />
       </form>
-      <ul id="todo-list"></ul>
-    </div>
-    <!--End Todo List-->
-    <div class="quote">
-      <div id="quote">
-        <span></span><br />
-        <span></span>
+      <h1 class="hidden" id="greeting" style="color: white"></h1>
+      <!--End Login-->
+      <div class="todo">
+        <h1>To-Do List</h1>
+        <form id="todo-form">
+          <input
+            class="form-text"
+            type="text"
+            placeholder="Add New Todo"
+            autofocus
+            required
+          />
+        </form>
+        <ul id="todo-list"></ul>
       </div>
-    </div>
-    <!--End Quote-->
+      <!--End Todo List-->
+      <div class="quote">
+        <div id="quote">
+          <span></span><br />
+          <span></span>
+        </div>
+      </div>
+      <!--End Quote-->
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
