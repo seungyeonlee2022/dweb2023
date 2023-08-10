@@ -1,6 +1,9 @@
 .map{
     align-self: center;
 }
+.grit_video{
+    align-self: center;
+}
 body > section{
     width: 960px;
     margin: 0 auto;
