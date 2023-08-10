@@ -30,6 +30,7 @@
     margin-bottom: 30px;
     justify-content: center;
     align-self: center;
+    text-align: center;
     color: var(--white-color);
     text-transform: uppercase;
     font-size: var(--title-size);
@@ -39,9 +40,11 @@
 .map_text{
     font-family: 'IAMAPLAYER';
     font-size: 3rem; 
+    text-align: center;
 }
 .grit_text{
     font-family: 'IAMAPLAYER';
     font-size: 3rem; 
+    text-align: center;
 }
   
