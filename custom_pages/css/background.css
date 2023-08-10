@@ -1,8 +1,8 @@
 .firstpage {
         background-image: url('../img/bg.jpg');
-        position: fixed; 
-        top: 0; 
-        left: 0; 
+        -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
 	
         /* Preserve aspet ratio */
         min-width: 100%;
