@@ -1,6 +1,16 @@
 @font-face {
     font-family: 'YeongdeokBlueroad';
-    src: url('https://github.com/seungyeonlee2022/dweb2023/blob/main/custom_pages/Yeongdeok%20Blueroad.otf') format('truetype');
+    src: url('영덕블루로드폰트') format('truetype');
+}
+@font-face {
+    font-family: 'IAMAPLAYER';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/IAMAPLAYER.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.grit_text{
+    font-family: 'IAMPLAYER';
+    font-size: 3rem; /*그릿 섹션 시작*/
 }
 .quote {
     justify-content: center;
@@ -31,6 +41,7 @@
     position: absolute;
     text-align: left;
     margin: 30px;
+    font-family: YeongdeokBlueroad;
     font-size: 1rem; /*명언 글자 크기*/
   }
   
