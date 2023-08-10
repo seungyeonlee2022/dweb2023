@@ -11,13 +11,14 @@
     --header-name-size:1.875em;
 }
 .Grit__header__btn{
-    background: my-blue; 
-    color: white;
+    background: var(--my-blue); 
+    color: var(--white-color);
+    font-size: 2rem;
     border: none;
     padding: 10px 40px;
 }
-Grit__header__btn:hover{
-    background: player-color;
+.Grit__header__btn:hover{
+    background: var(--player-color);
 }
 
 .header{
