@@ -1,5 +1,5 @@
 // 현재 위치 가져오기
-navigator.geolocation.getCurrentPosition(geoSuccess, getError);
+navigator.geolocation.getCurrentPosition(geoSuccess);
 
 function geoSuccess(position) {
   // 위도
