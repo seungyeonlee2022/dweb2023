@@ -1,3 +1,7 @@
+:root {
+    --my-blue:#5A68CB;
+    --player-color:#6683D9;
+}
 .map{
     justify-content: center;
 }
@@ -48,11 +52,11 @@ label, input, textarea{
     margin-bottom: 10px;
 }
 button{
-    background: #fe6081; 
+    background: my-blue; 
     color: white;
     border: none;
     padding: 10px 40px;
 }
 button:hover{
-    background: #ff80ab;
+    background: player-color;
 }
