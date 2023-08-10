@@ -1,14 +1,7 @@
 .quote {
     display: flex;
-    justify-content: center;
   }
   #quote {
-    position: absolute;
-    justify-content: center;
-    margin-bottom: 80px; /*명언 아래 띄움 조절*/
-    bottom: 0px;
-    width: 980px; /*명언 칸 크기 조절*/
-    height: 100px;
     background: rgba(255, 255, 255, 0.05);
     overflow: hidden;
     z-index: 10;
@@ -34,7 +27,7 @@
     position: absolute;
     right: 20px;
     bottom: 10px;
-    color: yellow;
+    color: white;
     font-weight: bold;
     font-size: 0.8rem; /*위인 글자 크기*/
   }
