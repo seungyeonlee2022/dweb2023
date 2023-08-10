@@ -9,7 +9,12 @@
     --title-size:7.5em;
     --menu-header-text:1.8em;
 }
-
+@font-face {
+    font-family: 'IAMAPLAYER';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/IAMAPLAYER.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 .hidden {
     display: none;
   }
@@ -30,7 +35,7 @@
     font-size: var(--title-size);
     margin: 0;
     font-weight: bold;
-    font-family: "Yasashii-bold";
+    font-family: "IAMAPLAYER";
 }
 .menu__header__text {
     color: var(--white-color);
