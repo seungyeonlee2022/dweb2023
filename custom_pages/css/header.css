@@ -4,11 +4,20 @@
     --white-color:#FFFFFF;
     --black-color:#060400;
     --player-color:#6683D9;
-    --menu-color:#5b4399;
+    --my-blue: #5A68CB;
 
     /*size*/
     --header-time-size:3.125em;
     --header-name-size:1.875em;
+}
+.Grit__header__btn{
+    background: my-blue; 
+    color: white;
+    border: none;
+    padding: 10px 40px;
+}
+Grit__header__btn:hover{
+    background: player-color;
 }
 
 .header{
