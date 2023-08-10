@@ -26,7 +26,8 @@
   
   .title {
     background-color: var(--my-blue);
-    width:100vw;
+    /*width:100vw;*/
+    max-width: 400px;
     margin: auto;
     position: absolute;
     text-align: center;
