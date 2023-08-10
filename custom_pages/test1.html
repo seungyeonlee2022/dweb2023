@@ -65,7 +65,9 @@
         <div class="map">
         <article>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi dolorem quisomnis nam quas sint assumenda id adipisci veritatis totam.</p>
-          <div id="map"><br>&nbsp;지도가 표시될 영역</div>
+          <div id="map"><br>
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1691645951075!6m8!1m7!1sCAoSLEFGMVFpcFBCUDd4WmptY0ZEUWhVNHU1d29SRHJJTDJMd2lFV3RPQmFDUDV0!2m2!1d-34.9843226!2d150.2400185!3f359.396393333968!4f-7.771446495413954!5f0.8160813932612223" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            &nbsp;지도가 표시될 영역</div>
         </article>
         <aside>
           <div class="weather">
@@ -101,5 +103,9 @@
     <script src="js/weather.js"></script>
     <script src="js/map.js"></script>
     <script src="js/menu.js"></script>
+    <script
+    defer
+    src="https://maps.googleapis.com/maps/api/js?key=<API 키>&callback=initMap"
+  ></script>
   </body>
 </html>
