@@ -1,7 +1,7 @@
 .firstpage {
         background-image: url('../img/bg.jpg');
-        width: 100vh;
-        heith: 100vw;
+        width:100vw;
+        height: 100vh;
         background-repeat : no-repeat;
         background-size : cover;
       }
