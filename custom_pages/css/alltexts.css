@@ -4,6 +4,7 @@
     --white-color:#FFFFFF;
     --black-color:#060400;
     --purple-color:#5b4399;
+    --my-blue:#5A68CB;
 
     /*size*/
     --title-size:7.5em;
@@ -24,9 +25,10 @@
   }
   
   .title {
-    position: absolute;
-    width:100%
+    background-color: my-blue;
+    width:100vw
     margin: auto;
+    position: absolute;
     text-align: center;
     color: var(--white-color);
     text-transform: uppercase;
@@ -36,12 +38,12 @@
 }
 .map_text{
     font-family: 'IAMAPLAYER';
-    font-size: 3rem; 
+    font-size: 4rem; 
     text-align: center;
 }
 .grit_text{
     font-family: 'IAMAPLAYER';
-    font-size: 3rem; 
+    font-size: 4rem; 
     text-align: center;
 }
   
