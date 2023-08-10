@@ -3,9 +3,16 @@
     src: url('https://github.com/seungyeonlee2022/dweb2023/blob/main/custom_pages/Yeongdeok%20Blueroad.otf') format('truetype');
 }
 .quote {
+    justify-content: center;
     display: flex;
   }
   #quote {
+    position: absolute;
+    justify-content: center;
+    margin-bottom: 100px;
+    bottom: 0px;
+    width: 1080px;
+    height: 120px;
     background: rgba(255, 255, 255, 0.05);
     overflow: hidden;
     z-index: 10;
