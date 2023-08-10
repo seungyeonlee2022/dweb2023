@@ -28,14 +28,14 @@
   }
   .title {
     position: absolute;
-    top: 6%;
+    top: 9%;
     align-self: center;
     color: var(--white-color);
     text-transform: uppercase;
     font-size: var(--title-size);
     margin: 0;
     font-weight: bold;
-    font-family: "IAMAPLAYER";
+    font-family: IAMAPLAYER;
 }
 .menu__header__text {
     color: var(--white-color);
