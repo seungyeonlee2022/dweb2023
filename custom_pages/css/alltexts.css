@@ -1,3 +1,15 @@
+
+:root{
+    /*color*/
+    --sky-blue-color:#A5F7FF;
+    --white-color:#FFFFFF;
+    --black-color:#060400;
+    --purple-color:#5b4399;
+
+    /*size*/
+    --title-size:7.5em;
+    --menu-header-text:1.8em;
+}
 @font-face {
     font-family: 'YdBroad';
     src: url('./font/Yeonngdeok Blueroad.otf') format("opentype");
@@ -7,6 +19,22 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/IAMAPLAYER.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+}
+.hidden {
+    display: none;
+  }
+  
+  .title {
+    position: absolute;
+    width:100%
+    margin-top: 40px;
+    margin-bottom: 30px;
+    align-self: center;
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-size: var(--title-size);
+    font-weight: bold;
+    font-family: IAMAPLAYER;
 }
 .map_text{
     font-family: 'IAMAPLAYER';
