@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'YeongdeokBlueroad';
-    src: url('../Yeonngdeok Blueroad.ttf') format('truetype');
+    font-family: 'YdBroad';
+    src: url('./font/Yeonngdeok Blueroad.otf') format("opentype");
 }
 @font-face {
     font-family: 'IAMAPLAYER';
@@ -8,8 +8,17 @@
     font-weight: normal;
     font-style: normal;
 }
+.times {
+    font-family: 'IAMAPLAYER';
+}
+.today{
+    font-family: 'IAMAPLAYER';
+}
+.cal{
+    font-family: 'IAMAPLAYER';
+}
 .grit_text{
-    font-family: 'IAMPLAYER';
+    font-family: 'IAMAPLAYER';
     font-size: 3rem; 
 }
 .quote {
@@ -32,7 +41,7 @@
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
     display: flex;
     text-align: center;
-    font-family: YeongdeokBlueroad; /*명언 폰트*/
+    font-family: YdBroad; /*명언 폰트*/
     font-weight: lighter;
     color: white;
   }
@@ -41,7 +50,7 @@
     position: absolute;
     text-align: left;
     margin: 30px;
-    font-family: YeongdeokBlueroad;
+    font-family: YdBroad;
     font-size: 1rem; /*명언 글자 크기*/
   }
   
@@ -51,7 +60,7 @@
     bottom: 10px;
     color: white;
     font-weight: bold;
-    font-family: YeongdeokBlueroad; /*명언 폰트*/
+    font-family: YdBroad; /*명언 폰트*/
     font-size: 0.8rem; /*위인 글자 크기*/
   }
   
