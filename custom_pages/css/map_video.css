@@ -1,8 +1,8 @@
 .map{
-    align-self: center;
+    justify-content: center;
 }
 .grit_video{
-    align-self: center;
+    justify-content: center;
 }
 body > section{
     width: 960px;
