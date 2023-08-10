@@ -27,8 +27,10 @@
     background-position: center;
   }
   .title {
-    position: absolute;
-    top: 9%;
+    margin-top: -25px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-left: 100px;
     align-self: center;
     color: var(--white-color);
     text-transform: uppercase;
