@@ -9,7 +9,6 @@
 
     /*size*/
     --title-size:7.5em;
-    --menu-header-text:1.8em;
 }
 @font-face {
     font-family: 'YdBroad';
@@ -26,8 +25,8 @@
   }
   
   .title {
-    background-color: my-blue;
-    width:100vw
+    background-color: var(--my-blue);
+    width:100vw;
     margin: auto;
     position: absolute;
     text-align: center;
