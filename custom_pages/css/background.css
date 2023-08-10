@@ -3,10 +3,10 @@
         -webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
-	
-        /* Preserve aspet ratio */
-        min-width: 100%;
-        min-height: 100%;
+        /* Preserve aspet ratio         
+	min-width: 100%;
+        min-height: 100%;*/
+
         background-repeat : no-repeat;
         background-size : cover;
       }
