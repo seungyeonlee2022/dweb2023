@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'neon';
-    src: url('폰트 유알') format('truetype');
+    font-family: 'YeongdeokBlueroad';
+    src: url('https://github.com/seungyeonlee2022/dweb2023/blob/main/custom_pages/Yeongdeok%20Blueroad.otf') format('truetype');
 }
 .quote {
     display: flex;
@@ -15,7 +15,7 @@
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
     display: flex;
     text-align: center;
-    font-family: 영덕해파랑체; /*명언 폰트*/
+    font-family: YeongdeokBlueroad; /*명언 폰트*/
     font-weight: lighter;
     color: white;
   }
@@ -33,7 +33,7 @@
     bottom: 10px;
     color: white;
     font-weight: bold;
-    font-family: 영덕해파랑체; /*명언 폰트*/
+    font-family: YeongdeokBlueroad; /*명언 폰트*/
     font-size: 0.8rem; /*위인 글자 크기*/
   }
   
