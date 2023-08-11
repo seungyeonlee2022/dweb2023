@@ -28,8 +28,7 @@
     background-color: var(--my-blue);
     /*width:100vw;*/
     max-width: 400px;
-    margin: auto;
-    position: absolute;
+    margin: 0 auto;
     text-align: center;
     color: var(--white-color);
     text-transform: uppercase;
