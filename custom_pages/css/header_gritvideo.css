@@ -3,6 +3,7 @@
     --white-color:#FFFFFF;
     --player-color:#6683D9;
     --my-blue: #5A68CB;
+    --my-purple: #CBA4E3;
 
     /*size*/
     --header-time-size:3.125em;
@@ -16,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color:var(--sky-blue);
+    color:var(--my-blue);
 }
 
 .header-time-name{
@@ -36,7 +37,7 @@
 
 .header__time-container:hover{
     background-color:var(--white-color); 
-    color:var(--player-color);
+    color:var(--my-purple);
 }
 .name{
     color: var(--white-color);
