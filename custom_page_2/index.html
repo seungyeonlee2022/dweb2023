@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    /*스타일 설정 불러오기*/
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/content.css" />
@@ -10,9 +9,7 @@
   <body id="bgimg">
     <header class="header"></header>
 
-    /*메인 메뉴*/
     <main class="main">
-      /*메뉴 버튼*/
       <section class="menu">
         <header class="menu__header">
           <button class="menu__header__btn " data-key="header-icon" data-value="scroll"><i class="fas fa-bars" data-key="header-icon" data-value="scroll" ></i></button>
@@ -28,7 +25,6 @@
         </div>
       </section>
 
-      /*현재 날씨와 구글 지도상 위치*/
       <section class="current">
         <div class="map">
         <article>
@@ -45,36 +41,24 @@
         </aside>
 
       </section>
-
-      /*grit TED 동영상 삽입-옆이 명언*/
-      <section class="Grit">
-        <header class="Grit_header">
-          <button class="Grit__header__btn"></button>
-        </header>
-        <article>
-          <p>All I need is an immersion.</p>
-          <div class="gritvideo">
-            <video autoplay loop muted >
-                <source src="video/windgrass.mp4" type="video.mp4">
-            </video>
-
-          </div>
-        </article>
-        <aside>
           <div class="quote">
             <div id="quote">
               <span></span><br/>
               <span></span>
             </div>
           </div>
-        </aside>
-      </section>
-      
-        
+    <iframe class="sampleMovie" width="560" height="315" src="https://www.youtube.com/embed/H14bBuluwB8" 
+              title="Grit:the power of passion and perservence" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="main_frame"></iframe>
+    <ul>
+      <input type="button" value='New Page'  onclick = "changeIframeUrl('19iEEx-2hxk')"></input>
+    </ul>
+
+
+}  
     </main>
+    <script>
+      function changeIframeUrl(url){ document.getElementById("main_frame").src = 'https://www.youtube.com/embed/'+ url;}
+    </script>
     <script src="js/quotes.js"></script>
-    <script src="js/weather.js"></script>
-    <script src="js/map.js"></script>
-    <script src="js/menu.js"></script>
   </body>
 </html>
