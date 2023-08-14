@@ -8,7 +8,9 @@
     /*size*/
     --header-time-size:3.125em;
     --header-name-size:1.875em;
-    --movielist-size: 1.6em;
+
+    /*border*/
+    --border:2px solid var(--white-color);
 }
 /*header*/
 .header{
@@ -43,6 +45,7 @@
     background-color:var(--white-color); 
     color:var(--my-purple);
 }
+
 .name-container{
     width: 60%;
     margin-left:3em;
@@ -64,7 +67,7 @@
 
 .name:hover{
     background-color: var(--white-color);
-    color:var(--player-color);
+    color:var(--my-purple);
 }
 
 .name-form{
