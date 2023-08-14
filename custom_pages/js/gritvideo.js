@@ -1,8 +1,23 @@
-$(".YoutubeMovieList ul li button a").click(function(){
-     
-    var movSrc = 'https://www.youtube.com/embed/'+$(this).data('url')+'?autoplay=1';
-    $("#sampleMovie").attr('src',movSrc);
- 
+let container1 = document.querySelectorAll("movieli_container")[0]
+let container2 = document.querySelectorAll("movieli_container")[1]
+let container3 = document.querySelectorAll("movieli_container")[2]
+
+container1.click(function(){
+    var movSrc = 'https://www.youtube.com/embed/'+ 'H14bBuluwB8';
+    let sammov = document.getElementsByClassName("sampleMovie");
+    sammov.attr('src',movSrc);
+    return false;
+});
+container2.click(function(){
+    let movSrc = 'https://www.youtube.com/embed/'+ '19iEEx-2hxk';
+    let sammov = document.getElementsByClassName("sampleMovie");
+    sammov.src= movSrc;
     return false;
 });
 
+container3.click(function(){
+    let movSrc = 'https://www.youtube.com/embed/'+ 'fjXZBr07tOo';
+    let sammov = document.getElementsByClassName("sampleMovie");
+    sammov.src= movSrc;
+    return false;
+});
