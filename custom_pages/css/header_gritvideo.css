@@ -47,16 +47,19 @@
 }
 /*name*/
 .name-container{
-    width: 60%;
+    /*width: 60%;
     margin-left:3em;
     display: flex;
     align-self: center;
     padding:0.3em;
     transition: all 0.3s ease;
-    border-radius:0.75em;
+    border-radius:0.75em;*/
+    transition: all ease 0.3s;  
+    border-radius: 1em;
+    padding:0.75em;
 }
 .name{
-    color: var(--white-color);
+    color: var(--my-blue);
     font-size:var(--header-name-size);
     border-radius:0.75em;
     padding:0.2em;
