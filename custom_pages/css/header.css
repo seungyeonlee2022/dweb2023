@@ -7,6 +7,7 @@
     /*size*/
     --header-time-size:3.125em;
     --header-name-size:1.875em;
+    --movielist-size: 1.6em;
 }
 .Grit__header__btn{
     background: var(--my-blue); 
@@ -86,6 +87,17 @@
     font-size:var(--name-input-font);
 }
 
-.name-hide{
-    display: none;
+.movielsit_text{
+    font-size: var(--movielist-size);
+}
+
+.movielist_button{
+    transition: all ease 0.3s;  
+    border-radius: 1em;
+    padding:0.75em;
+}
+
+.movielist_button:hover{
+    background-color:var(--white-color); 
+    color:var(--player-color);
 }
