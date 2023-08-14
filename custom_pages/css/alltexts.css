@@ -12,7 +12,7 @@
 }
 @font-face {
     font-family: 'bushwackers';
-    src: url('./fonts/Bushwackers.ttf') format("truetype");
+    src: url('./fonts/bushwackers.regular.ttf) format("truetype");
     font-weight: normal;
     font-style: normal;
 }
