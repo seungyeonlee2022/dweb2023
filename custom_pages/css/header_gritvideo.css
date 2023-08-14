@@ -11,6 +11,9 @@
 
     /*border*/
     --border:2px solid var(--white-color);
+
+    /*pf-btns*/
+    --pf-btn-size: 2em;
 }
 /*header*/
 .header{
@@ -121,4 +124,34 @@
 
 .movielist_text:hover{
     color: var(--my-blue);
+}
+
+/*portfolio link buttons*/
+.pf-btns-container {
+    position: fixed;
+    top: 85%;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pf_text{
+    font-size: 0.5em;
+    font-family:'IAMAPLAYER';
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+.pf-btn {
+    transition: all 0.3s ease;
+    width: var(--pf-btn-size);
+    height: var(--pf-btn-size);
+    border-radius: 50%;
+}
+.pf-btn:hover{
+    background-color:var(--my-purple); 
+}
+.notion-logo, .github-logo{
+    width: 10px;
+    height: 10px;
 }
