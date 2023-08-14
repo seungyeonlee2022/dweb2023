@@ -1,6 +1,6 @@
-let container1 = document.querySelectorAll("movieli_container")[0];
-let container2 = document.querySelectorAll("movieli_container")[1];
-let container3 = document.querySelectorAll("movieli_container")[2];
+let container1 = document.querySelectorAll(".movieli_container")[0];
+let container2 = document.querySelectorAll(".movieli_container")[1];
+let container3 = document.querySelectorAll(".movieli_container")[2];
 let sammov = document.getElementsByClassName("sampleMovie");
 function f1(){
     var movSrc = 'https://www.youtube.com/embed/'+ 'H14bBuluwB8';
