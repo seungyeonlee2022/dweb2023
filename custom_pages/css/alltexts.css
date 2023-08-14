@@ -36,7 +36,7 @@
     text-transform: uppercase;
     font-size: var(--title-size);
     font-weight: bold;
-    font-family: IAMAPLAYER;
+    font-family: 'IAMAPLAYER';
 }
 .map_text{
     font-family: 'IAMAPLAYER';
@@ -47,5 +47,8 @@
     font-family: 'IAMAPLAYER';
     font-size: 4rem; 
     text-align: center;
+}
+.movielist_text{
+    font-family: 'YdBroad';
 }
   
