@@ -24,7 +24,6 @@
 }
 .title {
     background-color: var(--my-blue);
-    opacity: 0.7;
     position:absolute;
     /*width:100vw;*/
     text-align: center;
@@ -50,4 +49,7 @@
     font-family: 'IAMAPLAYER';
     color: var(--white-color);
 }
-  
+
+.header__time, .name-input {
+    font-family: 'IAMAPLAYER';
+}
