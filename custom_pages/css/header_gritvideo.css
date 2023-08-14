@@ -64,6 +64,7 @@
 .name{
     color: var(--my-blue);
     font-size:var(--header-name-size);
+    font-famliy:'IAMAPLAYER';
     border-radius:0.75em;
     padding:0.2em;
     border:var(--border);
@@ -110,7 +111,8 @@
     display: inline;
 }
 .movieli_container{
-    display: inline;
+    float: left;
+    margin: 10px;
     background-color: transparent;
     transition: all ease 0.3s;  
     border-radius: 3em;
@@ -143,6 +145,8 @@
     text-transform: uppercase;
 }
 .pf-btn {
+    float: left;
+    margin: 3px;
     transition: all 0.3s ease;
     width: var(--pf-btn-size);
     height: var(--pf-btn-size);
