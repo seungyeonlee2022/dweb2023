@@ -18,7 +18,7 @@
 }
 
 /*header*/
-.header{
+/*.header{
     padding-top:1.5em;
     padding-bottom:1.5em;
     paddding-left:1.5em;
@@ -28,7 +28,7 @@
     justify-content: space-between;
     align-items: center;
     color:var(--my-blue);
-}
+}*/
 .header-time-name{
     display: flex;
     align-self: center;
