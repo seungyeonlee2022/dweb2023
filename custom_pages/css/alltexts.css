@@ -52,6 +52,7 @@
 }
 .movielist_text{
     font-size: 1.6rem;
-    font-family: 'YdBroad';
+    font-family: 'IAMAPLAYER';
+    color: var(--white-color);
 }
   
