@@ -81,7 +81,11 @@
 .YoutubeMovieList{
     list-style-type: none;
 }
+.grit_video_container{
+    display: inline;
+}
 .movieli_container{
+    display: inline;
     background-color:var(--white-color); 
     transition: all ease 0.3s;  
     border-radius: 1em;
