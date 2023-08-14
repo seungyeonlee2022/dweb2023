@@ -43,6 +43,15 @@
     background-color:var(--white-color); 
     color:var(--my-purple);
 }
+.name-container{
+    width: 60%;
+    margin-left:3em;
+    display: flex;
+    align-self: center;
+    padding:0.3em;
+    transition: all 0.3s ease;
+    border-radius:0.75em;
+}
 .name{
     color: var(--white-color);
     font-size:var(--header-name-size);
@@ -81,7 +90,9 @@
     text-align: center;
     font-size:var(--name-input-font);
 }
-
+.name-hide{
+    display: none;
+}
 /*gritvideo*/
 .YoutubeMovieList{
     list-style-type: none;
