@@ -1,0 +1,9 @@
+.Trip, .Grit {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 1.5%;
+    height: 20%;
+    width: 100%;
+    margin-bottom: 50vh;
+}
