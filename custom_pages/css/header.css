@@ -87,17 +87,17 @@
     font-size:var(--name-input-font);
 }
 
-.movielsit_text{
+.movielist_text{
     font-size: var(--movielist-size);
 }
 
-.movielist_button{
+.movieli_container{
     transition: all ease 0.3s;  
     border-radius: 1em;
     padding:0.75em;
 }
 
-.movielist_button:hover{
+.movieli_container:hover{
     background-color:var(--white-color); 
     color:var(--player-color);
 }
