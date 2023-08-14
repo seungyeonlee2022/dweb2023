@@ -94,6 +94,6 @@
 }
 
 .movieli_container:hover{
-    background-color:var(--white-color);; 
+    background-color:var(--white-color);
     color: var(--my-blue); 
 }
