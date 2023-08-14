@@ -37,7 +37,7 @@
 }
 .map_text, .grit_text{
     background-color: var(--my-blue);
-    opacity: 0.7;
+    opacity: 0.5;
     color: var(--white-color);
     font-family: 'IAMAPLAYER';
     font-size: 4rem; 
