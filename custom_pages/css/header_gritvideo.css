@@ -8,6 +8,7 @@
     /*size*/
     --header-time-size:3.125em;
     --header-name-size:3.125em;
+    --name-input-font: 1.5em;
 
     /*border*/
     --border:2px solid var(--white-color);
@@ -15,6 +16,7 @@
     /*pf-btns*/
     --pf-btn-size: 3em;
 }
+
 /*header*/
 .header{
     padding-top:1.5em;
@@ -27,7 +29,6 @@
     align-items: center;
     color:var(--my-blue);
 }
-
 .header-time-name{
     display: flex;
     align-self: center;
@@ -48,8 +49,8 @@
     background-color:var(--white-color); 
     color:var(--my-purple);
 }
-/*name*/
 
+/*name*/
 .name:hover{
     background-color: var(--white-color);
     color:var(--my-purple);
@@ -61,26 +62,18 @@
     border-radius:0.75em;
     padding:0.2em;
 }
-
-.name-form:focus-within{
-    background-color: var(--player-color);
-}
-
 .name-input{
     text-align: center;
     width: 100%;
+    background-color: var(--player-color);
     color:var(--white-color);
     font-size:var(--name-input-font);
 }
 
-.name-input::placeholder{
-    color:var(--white-color);
-    text-align: center;
-    font-size:var(--name-input-font);
-}
 .name-hide{
     display: none;
 }
+
 /*gritvideo*/
 .YoutubeMovieList{
     list-style-type: none;
@@ -97,11 +90,9 @@
     border-color: var(--white-color);
     margin-bottom: 30px;
 }
-
 .movieli_container:hover{
     background-color:var(--white-color); 
 }
-
 .movielist_text:hover{
     color: var(--my-blue);
 }
@@ -115,7 +106,6 @@
     flex-direction: column;
     align-items: center;
 }
-
 .pf_text{
     font-size: 1.3em;
     color: var(--white-color);
