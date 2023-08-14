@@ -34,11 +34,11 @@
     padding:1.5em;
 }
 
-.header__time{
+.header__timem, .name{
     font-size: var(--header-time-size);
 }
 
-.header__time-container{
+.header__time-container, .name-container{
     transition: all ease 0.3s;  
     border-radius: 1em;
     padding:0.75em;
@@ -49,27 +49,6 @@
     color:var(--my-purple);
 }
 /*name*/
-.name-container{
-    /*width: 60%;
-    margin-left:3em;
-    display: flex;
-    align-self: center;
-    padding:0.3em;
-    transition: all 0.3s ease;
-    border-radius:0.75em;*/
-    transition: all ease 0.3s;  
-    border-radius: 1em;
-    padding:0.75em;
-}
-.name{
-    color: var(--my-blue);
-    font-size:var(--header-name-size);
-    font-famliy:'IAMAPLAYER';
-    border-radius:0.75em;
-    padding:0.75em;
-    width:100%;
-    text-align: center;
-}
 
 .name:hover{
     background-color: var(--white-color);
@@ -138,8 +117,7 @@
 }
 
 .pf_text{
-    font-size: 0.8em;
-    font-family:'IAMAPLAYER';
+    font-size: 1.3em;
     color: var(--white-color);
     text-transform: uppercase;
 }
