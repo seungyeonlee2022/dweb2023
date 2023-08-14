@@ -86,14 +86,14 @@
 }
 .movieli_container{
     display: inline;
-    background-color:var(--white-color); 
+    background-color: transparent;
     transition: all ease 0.3s;  
     border-radius: 1em;
-    padding:0.75em;
-    margin:
+    border-color: var(--white-color);
+    margin-bottom: 30px;
 }
 
 .movieli_container:hover{
-    background-color:var(--player-color);; 
-    color: var(--white-color); 
+    background-color:var(--white-color);; 
+    color: var(--my-blue); 
 }
