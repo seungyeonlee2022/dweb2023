@@ -11,8 +11,8 @@
     --title-size:7.5em;
 }
 @font-face {
-    font-family: 'YdBroad';
-    src: url('./fonts/Yeongdeok Blueroad.otf') format("opentype");
+    font-family: 'bushwackers';
+    src: url('./fonts/Bushwackers.ttf') format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -50,6 +50,9 @@
     color: var(--white-color);
 }
 
-.header__time, .name, .pf_text {
+.header__time {
     font-family: 'IAMAPLAYER';
+}
+.name, pf_text{
+    font-family: 'bushwackers';
 }
