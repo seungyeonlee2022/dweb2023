@@ -27,7 +27,7 @@
   }
   
   .title {
-    background-color: var(--my-blue);
+    
     position:absolute;
     width:100vw;
     margin-bottom: 50vh;
