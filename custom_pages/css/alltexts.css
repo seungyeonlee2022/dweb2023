@@ -26,10 +26,12 @@
   
   .title {
     background-color: var(--my-blue);
-    /*width:100vw;*/
-    max-width: 400px;
+    position:absolute;
+    width:100vw
     margin: 0 auto;
     text-align: center;
+    align-self: center;
+    
     color: var(--white-color);
     text-transform: uppercase;
     font-size: var(--title-size);
