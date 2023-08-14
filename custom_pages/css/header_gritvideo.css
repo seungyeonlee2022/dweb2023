@@ -13,7 +13,7 @@
     --border:2px solid var(--white-color);
 
     /*pf-btns*/
-    --pf-btn-size: 2em;
+    --pf-btn-size: 3em;
 }
 /*header*/
 .header{
@@ -138,7 +138,7 @@
 }
 
 .pf_text{
-    font-size: 0.5em;
+    font-size: 0.8em;
     font-family:'IAMAPLAYER';
     color: var(--white-color);
     text-transform: uppercase;
@@ -155,6 +155,6 @@
     background-color:var(--my-purple); 
 }
 .notion-logo, .github-logo{
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
 }
