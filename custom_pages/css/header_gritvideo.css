@@ -66,8 +66,7 @@
     font-size:var(--header-name-size);
     font-famliy:'IAMAPLAYER';
     border-radius:0.75em;
-    padding:0.2em;
-    border:var(--border);
+    padding:0.75em;
     width:100%;
     text-align: center;
 }
