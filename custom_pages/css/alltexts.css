@@ -50,6 +50,6 @@
     color: var(--white-color);
 }
 
-.header__time, .name-input {
+.header__time, .name, .pf-text {
     font-family: 'IAMAPLAYER';
 }
