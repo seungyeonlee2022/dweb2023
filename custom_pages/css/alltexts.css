@@ -13,6 +13,8 @@
 @font-face {
     font-family: 'YdBroad';
     src: url('./font/Yeonngdeok Blueroad.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
     font-family: 'IAMAPLAYER';
@@ -49,7 +51,7 @@
     text-align: center;
 }
 .movielist_text{
-    font-size: 1.6em;
+    font-size: 1.6rem;
     font-family: 'YdBroad';
 }
   
