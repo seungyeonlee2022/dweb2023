@@ -81,17 +81,15 @@
 .YoutubeMovieList{
     list-style-type: none;
 }
-.movielist_text{
-    font-size: var(--movielist-size);
-}
-
 .movieli_container{
+    background-color:var(--white-color); 
     transition: all ease 0.3s;  
     border-radius: 1em;
     padding:0.75em;
+    margin:
 }
 
 .movieli_container:hover{
-    background-color:var(--white-color); 
-    color:var(--player-color);
+    background-color:var(--player-color);; 
+    color: var(--white-color); 
 }
