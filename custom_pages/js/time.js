@@ -4,7 +4,8 @@ function getTime() {
     const date = new Date();
     const hour = date.getHours();
     const minutes = date.getMinutes();
-    timeContainer.innerText = `${hour<10? "0"+hour:hour}:${minutes<10? "0"+minutes:minutes}`;
+    const seconds = date.getSeconds();
+    timeContainer.innerText = `${hour<10? "0"+hour:hour}:${minutes<10? "0"+minutes:minutes}:${seconds<10? "0"+seconds:seconds}`;
 }
 
-setInterval(getTime, 10000);
+setInterval(getTime, 1000);
