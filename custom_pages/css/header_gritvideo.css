@@ -7,7 +7,7 @@
 
     /*size*/
     --header-time-size:3.125em;
-    --header-name-size:1.875em;
+    --header-name-size:3.125em;
 
     /*border*/
     --border:2px solid var(--white-color);
@@ -34,7 +34,7 @@
     padding:1.5em;
 }
 
-.header__timem, .name{
+.header__time, .name{
     font-size: var(--header-time-size);
 }
 
