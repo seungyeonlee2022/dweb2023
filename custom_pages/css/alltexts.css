@@ -8,7 +8,7 @@
     --player-color:#6683D9;
 
     /*size*/
-    --title-size:7.5em;
+    --title-size:7.5rem;
 }
 
 @font-face {
@@ -26,24 +26,24 @@
 }
 .title {
     background-color: var(--my-blue);
-    position:absolute;
-    /*width:100vw;*/
-    text-align: center;
-    align-self: center;
-    
     color: var(--white-color);
-    text-transform: uppercase;
     font-size: var(--title-size);
-    font-weight: bold;
     font-family: 'IAMAPLAYER';
+    position:absolute;
+    text-align: center;
+    
+    /*width:100vw;
+    font-weight: bold;
+    text-transform: uppercase*/
 }
 .map_text, .grit_text{
     background-color: var(--my-blue);
     opacity: 0.9;
     color: var(--white-color);
-    font-family: 'IAMAPLAYER';
+    font-style: 'IAMAPLAYER';
     font-size: 4rem; 
-    text-align: center;
+    /*text-align: center;
+    font-weight: bold;*/
 }
 
 .movielist_text{
