@@ -6,17 +6,26 @@
     --my-purple: #CBA4E3;
 
     /*size*/
-    --header-time-size:3.125em;
+    --header-time-size:3.125rem;
     --header-name-size:3.125em;
-    --name-input-font: 1.5em;
-
-    /*border*/
-    --border:2px solid var(--white-color);
-
+    --name-input-font: 1.5rem;
+    --title-size:7.5rem;
     /*pf-btns*/
-    --pf-btn-size: 3em;
+    --pf-btn-size: 3rem;
+}
+@font-face {
+    font-family: 'bushwackers';
+    src: url('./fonts/bushwackers.regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 
+@font-face {
+    font-family: 'IAMAPLAYER';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/IAMAPLAYER.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 /*header*/
 /*.header{
     padding-top:1.5em;
@@ -32,7 +41,7 @@
 .header-time-name{
     display: flex;
     align-self: center;
-    padding:1.5em;
+    padding:1.5rem;
 }
 
 .header__time, .name{
@@ -41,8 +50,8 @@
 
 .header__time-container, .name-container{
     transition: all ease 0.3s;  
-    border-radius: 1em;
-    padding:0.75em;
+    border-radius: 1rem;
+    padding:0.75rem;
 }
 
 .header__time-container:hover{
@@ -59,8 +68,8 @@
 .name-form{
     width: var(--name-form);
     border:var(--border);
-    border-radius:0.75em;
-    padding:0.2em;
+    border-radius:0.75rem;
+    padding:0.2rem;
 }
 .name-input{
     text-align: center;
@@ -83,12 +92,12 @@
 }
 .movieli_container{
     float: left;
-    margin: 10px;
+    margin: 0.75rem;
     background-color: transparent;
     transition: all ease 0.3s;  
-    border-radius: 3em;
+    border-radius: 3rem;
     border-color: var(--white-color);
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
 }
 .movieli_container:hover{
     background-color:var(--white-color); 
@@ -107,13 +116,13 @@
     align-items: center;
 }
 .pf_text{
-    font-size: 1.3em;
+    font-size: 1.3rem;
     color: var(--white-color);
     text-transform: uppercase;
 }
 .pf-btn {
     float: left;
-    margin: 3px;
+    margin: 0.25rem;
     transition: all 0.3s ease;
     width: var(--pf-btn-size);
     height: var(--pf-btn-size);
@@ -123,6 +132,41 @@
     background-color:var(--my-purple); 
 }
 .notion-logo, .github-logo{
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.title {
+    background-color: var(--my-blue);
+    color: var(--white-color);
+    font-size: var(--title-size);
+    font-family: 'IAMAPLAYER';
+    position:absolute;
+    text-align: center;
+    
+    /*width:100vw;
+    font-weight: bold;
+    text-transform: uppercase*/
+}
+.map_text, .grit_text{
+    background-color: var(--my-blue);
+    opacity: 0.9;
+    color: var(--white-color);
+    font-style: 'IAMAPLAYER';
+    font-size: 4rem; 
+    /*text-align: center;
+    font-weight: bold;*/
+}
+
+.movielist_text{
+    font-size: 1.6rem;
+    font-family: 'IAMAPLAYER';
+    color: var(--white-color);
+}
+
+.header__time {
+    font-family: 'IAMAPLAYER';
+}
+.name, pf_text{
+    font-family: 'bushwackers';
 }
