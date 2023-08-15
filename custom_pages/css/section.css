@@ -8,3 +8,7 @@
     width: 100%;
     margin-bottom: 50vh;
 }
+.MovieList_container, .YoutubeMovieList {
+	align-self: center;
+	justify-content: center;
+}
