@@ -1,27 +1,22 @@
+const s = document.querySelector(".sampleMap");
 
-const map1 = document.getElementsByClassName('map');
-const map2 = document.getElementsByClassName('map_ulruru');
-const map3 = document.getElementsByClassName('map_search');
+ function f1() { 
+    s.src = 'https://www.google.com/maps/embed?pb=!4v1691645951075!6m8!1m7!1sCAoSLEFGMVFpcFBCUDd4WmptY0ZEUWhVNHU1d29SRHJJTDJMd2lFV3RPQmFDUDV0!2m2!1d-34.9843226!2d150.2400185!3f359.396393333968!4f-7.771446495413954!5f0.8160813932612223';
+    s.load();
+    s.play();
+ }
 
-const button1 = document.getElementById('m1');
-const button2 = document.getElementById('m2');
-const button3 = document.getElementById('m3');
+ function f2() { 
+    s.src = 'https://seungyeonlee2022.github.io/dweb2023/googlemaps/map_ulruru';
+    s.load();
+    s.play();
+ }
+ function f3() { 
+    s.src = 'https://seungyeonlee2022.github.io/dweb2023/googlemaps_se2/map_search';
+    s.load();
+    s.play();
+ }
 
-function see_map1(){
-  map1.getAttribute('map-hide');
-  map2.setAttribute('class','map-hide');
-  map3.setAttribute('class','map-hide');
-}
-function see_map2(){
-  map2.getAttribute('map-hide');
-  map1.setAttribute('class','map-hide');
-  map3.setAttribute('class','map-hide');
-}
-function see_map3(){
-  map3.getAttribute('map-hide');
-  map2.setAttribute('class','map-hide');
-  map1.setAttribute('class','map-hide');
-}
-button1.addEventListener("click", see_map1);
-button2.addEventListener("click", see_map2);
-button3.addEventListener("click", see_map3);
+ document.getElementById("m1").onclick=f1;       
+ document.getElementById("m2").onclick=f2; 
+ document.getElementById("m3").onclick=f3; 
