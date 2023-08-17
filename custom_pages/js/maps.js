@@ -1,7 +1,7 @@
 
 const map1 = document.getElementsByClassName('map');
-const map2 = document.getElementsByClassName('map_current');
-const map3 = document.getElementsByClassName('map_ulruru');
+const map2 = document.getElementsByClassName('map_ulruru');
+const map3 = document.getElementsByClassName('map_search');
 
 const button1 = document.getElementById('m1');
 const button2 = document.getElementById('m2');
