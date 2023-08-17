@@ -175,3 +175,8 @@
 .name, pf_text{
     font-family: 'IAMAPLAYER';
 }
+
+/*map*/
+.map-hide{
+    display: none;
+}
