@@ -37,6 +37,9 @@
     font-size: var(--header-time-size);
     color:var(--white-color);
 }
+.header__time:hover {
+    color:var(--my-purple);
+}
 .header__time-container {
     transition: all ease 0.3s;  
     border-radius: 1rem;
@@ -45,9 +48,10 @@
 
 .header__time-container:hover{
     background-color:var(--white-color); 
+}
+.header__time:hover {
     color:var(--my-purple);
 }
-
 /*name*/
 .name-container{
     transition: all ease 0.3s;  
@@ -56,9 +60,10 @@
 }
 .name-container:hover{
     background-color:var(--white-color); 
+}
+.name:hover {
     color:var(--my-purple);
 }
-
 .name-form{
     width: var(--name-form);
     border:var(--border);
