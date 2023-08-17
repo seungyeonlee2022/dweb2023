@@ -1,4 +1,4 @@
-.pf-btns-container, .Trip, .Grit {
+.Page_01, .Trip{
     display: flex;
     flex-direction: column;
     align-self: center;
