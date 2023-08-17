@@ -43,14 +43,12 @@
     padding:0.75rem;
 }
 
-.header__time-container:hover{
+.header__time-container, .name-container :hover{
     background-color:var(--white-color); 
-    color:var(--my-purple);
 }
 
 /*name*/
-.name:hover{
-    background-color: var(--white-color);
+.header__time, .name:hover{
     color:var(--my-purple);
 }
 
