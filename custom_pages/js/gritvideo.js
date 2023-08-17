@@ -1,20 +1,20 @@
-const s = document.querySelector(".sampleMovie");
+const sm = document.querySelector(".sampleMovie");
 
  function gg1() { 
-    s.src = 'https://www.youtube.com/embed/H14bBuluwB8';
-    s.load();
-    s.play();
+    sm.src = 'https://www.youtube.com/embed/H14bBuluwB8';
+    sm.load();
+    sm.play();
  }
 
  function gg2() { 
-    s.src = 'https://www.youtube.com/embed/19iEEx-2hxk';
-    s.load();
-    s.play();
+    sm.src = 'https://www.youtube.com/embed/19iEEx-2hxk';
+    sm.load();
+    sm.play();
  }
  function gg3() { 
-    s.src = 'https://www.youtube.com/embed/fjXZBr07tOo';
-    s.load();
-    s.play();
+    sm.src = 'https://www.youtube.com/embed/fjXZBr07tOo';
+    sm.load();
+    sm.play();
  }
 
  document.getElementById("g1").onclick=gg1;       
