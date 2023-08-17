@@ -37,7 +37,7 @@
     font-size: var(--header-time-size);
     color:var(--white-color);
 }
-.header__time-container
+.header__time-container {
     transition: all ease 0.3s;  
     border-radius: 1rem;
     padding:0.75rem;
