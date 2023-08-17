@@ -84,7 +84,7 @@
 .grit_video_container{
     display: inline;
 }
-.movieli_container{
+.movieli_container, .mapli_container{
     float: left;
     margin: 0.75rem;
     background-color: transparent;
@@ -97,6 +97,13 @@
     background-color:var(--white-color); 
 }
 .movielist_text:hover{
+    color: var(--my-blue);
+}
+
+.mapli_container:hover{
+    background-color:var(--white-color); 
+}
+.maplist_text:hover{
     color: var(--my-blue);
 }
 
