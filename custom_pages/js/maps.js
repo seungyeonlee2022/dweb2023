@@ -8,17 +8,17 @@ const button2 = document.getElementById('m2');
 const button3 = document.getElementById('m3');
 
 function see_map1(){
-  map1.classList.remove('map-hide');
+  map1.getAttribute('map-hide');
   map2.setAttribute('class','map-hide');
   map3.setAttribute('class','map-hide');
 }
 function see_map2(){
-  map2.classList.remove('map-hide');
+  map2.getAttribute('map-hide');
   map1.setAttribute('class','map-hide');
   map3.setAttribute('class','map-hide');
 }
 function see_map3(){
-  map3.classList.remove('map-hide');
+  map3.getAttribute('map-hide');
   map2.setAttribute('class','map-hide');
   map1.setAttribute('class','map-hide');
 }
