@@ -10,7 +10,7 @@ async function initMap() {
   const { AdvancedMarkerView } = await google.maps.importLibrary("marker");
 
   // The map, centered at Uluru
-  map = new Map(document.getElementById("map_ulruru"), {
+  map = new Map(document.getElementsByClassName("map_ulruru"), {
     zoom: 4,
     center: position,
     mapId: "DEMO_MAP_ID",
